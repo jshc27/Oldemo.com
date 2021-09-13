@@ -70,8 +70,29 @@ button {
 }
 
 button:hover {
+
     background-color: #58923c;
     opacity: 95%;
 
-   
+}
+
+
+
+/* pie de pagina  */
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: #7bb062;
+    align-items: center;
+
+}
+
+footer a, p {
+
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+
 }
