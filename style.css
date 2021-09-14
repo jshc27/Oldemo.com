@@ -88,9 +88,31 @@ button:hover {
 
     display: none;
     width: 300px;
-    height: 350px;
-    border: 1px solid red;
+    height: 300px;
+    background-color: white;
 
+}
+
+.login-button {
+
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login-usuario, .login-button {
+
+    margin-top: 50px;
+    outline: none;
+}
+
+.login-password {
+    margin-top: 20px;
+    outline: none;
+}
+
+.login-text p {
+    color: black;
 }
 
 
