@@ -51,14 +51,14 @@
     <!-- Aqui inicia el cuerpo del sitio web -->
 
     <main>
-        <div id="login" class="login">
-            <input class="login-usuario" type="text" placeholder="Usuario">
+        <form id="login" class="login">
+            <input class="login-usuario" type="text" placeholder="Usuario"  id="nameComplete">
             <input class="login-password" type="password" placeholder="Contraseña">
-            <button class="login-button"  type="submit">Login</button>
+            <button class="login-button"  type="submit" onclick="return validar()">Login</button>
             <div class="login-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis</p>
             </div>
-        </div>
+        </form>
         <button class="hugeButton" type="submit">Call  to action</button>
     </main>
 
@@ -74,7 +74,7 @@
 
     <!-- Aqui termina el pie de pagina -->
 
-    <script src="./Funcionalidades/register.js"></script>
+    <script src="./Funcionalidades/login.js"></script>
 
 </body>
 </html>
