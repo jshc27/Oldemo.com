@@ -18,46 +18,60 @@
                 <li>
                     <a href="">Quiero aparender</a>
                     <ul>
-                        <li><a href="">Dato1</a></li>
-                        <li><a href="">Dato1</a></li>
-                        <li><a href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="">Practica extra</a>
                     <ul>
-                        <li><a href="">Dato1</a></li>
-                        <li><a href="">Dato1</a></li>
-                        <li><a href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="">Más recursos</a>
                     <ul>
-                        <li><a href="">Dato1</a></li>
-                        <li><a href="">Dato1</a></li>
-                        <li><a href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
+                        <li><a class="submenu" href="">Dato1</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
         <div class="Nav_Buttons">
-            <button type="submit">Login</button>
-            <button type="submit">Register</button>
+            <button  onclick="login()" type="submit">Login</button>
+            <button  class="register" type="submit">Register</button>
         </div>
     </header>
+
     <!-- Aqui acaba el header + navbar -->
     <!-- Aqui inicia el cuerpo del sitio web -->
+
     <main>
+        <div id="login" class="login">
+            
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+        </div>
         <button class="hugeButton" type="submit">Call  to action</button>
     </main>
+
     <!-- Aqui termina el cuerpo del sitio web -->
     <!-- Aqui inicia el pie de pagina -->
+
     <footer>
+
         <a href="www.google.com">Politica de privacidad</a>
         <p>2021</p>
         <a href="https://www.linkedin.com/in/juanherreraca/">LinkedIn</a>    
     </footer>
+
     <!-- Aqui termina el pie de pagina -->
+
+    <script src="./Funcionalidades/register.js"></script>
+
 </body>
 </html>
