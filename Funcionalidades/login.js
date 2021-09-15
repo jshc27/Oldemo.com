@@ -21,4 +21,12 @@ function validar() {
     } else if (nameComplete.length<=6) {
         alert("Escribe tu nombre completo")
     }
+
+    let password = document.forms['login']['password'].value;
+    if(password == "") {
+        alert('Ingresa tu contraseña');
+        return false;
+    } else if( password.length<=6) {
+        alert("Ingresa mas de 6 caracteres");
+    }
 }
