@@ -23,7 +23,7 @@ function validarLogin() {
     }
 
     let password = document.forms['login']['password'].value;
-    if(password = "") {
+    if(password == "") {
         alert('Ingresa tu contraseña');
         return false;
     } else if( password.length<=6) {
