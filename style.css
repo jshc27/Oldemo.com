@@ -29,6 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
+
     display: block;
     text-decoration: none;
     color: #7bb062;
@@ -48,15 +49,17 @@ nav ul li a:hover {
 
 
 nav li ul {
+
     display: none;
     position: absolute;
+
 }
 
 nav li:hover > ul {
 
     display: block;
     background-color: #CEE8C2;
-   
+
 }
 
 
@@ -151,13 +154,6 @@ main {
     background-size: cover;
 }
 
-.hugeButton {
-
-    width: 225px;
-    background-color: white;
-    color: black;
-
-}
 
 
 

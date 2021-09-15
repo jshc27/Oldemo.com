@@ -43,7 +43,7 @@
         </nav>
         <div class="Nav_Buttons">
             <button  onclick="login()" type="submit">Login</button>
-            <button  onclick="registro()" class="register" type="submit">Register</button>
+            <button  onclick=" registro()" class="register" type="submit">Register</button>
         </div>
     </header>
 
@@ -52,24 +52,23 @@
 
     <main>
         <form id="login" class="login">
-            <input class="login-usuario" type="text" placeholder="Usuario"  id="nameComplete">
+            <input class="login-usuario" type="text" placeholder="Usuario"  id="user">
             <input class="login-password" type="password" placeholder="Contraseña" id="password">
-            <button class="login-button"  type="submit" onclick="return validar()">Login</button>
+            <button class="login-button"  type="submit" onclick="return validarLogin()">Login</button>
             <div class="login-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis</p>
             </div>
         </form>
         <form id="registro" class="registro">
-            <input class="register-name" type="text" placeholder="Nombre Completo">
-            <input class="register-usuario" type="text" placeholder="Usuario"  id="nameComplete">
+            <input class="register-name" type="text" placeholder="Nombre Completo" id="nameComplete">
+            <input class="register-usuario" type="text" placeholder="Usuario"  id="user">
             <input  class="register-email" type="email" placeholder="email">
             <input class="register-password" type="password" placeholder="Contraseña" id="password">
             <div class="register-buttons">
-                <button type="submit">Register</button>
+                <button type="submit" onclick="return validarRegistro()">Register</button>
                 <button type="submit">Cancelar</button>
             </div>
         </form>
-        <button class="hugeButton" type="submit">Call  to action</button>
     </main>
 
     <!-- Aqui termina el cuerpo del sitio web -->

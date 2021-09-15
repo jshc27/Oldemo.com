@@ -12,18 +12,18 @@ function login() {
 
 // funcion validacion
 
-function validar() {
+function validarLogin() {
 
-    let nameComplete = document.forms["login"]["nameComplete"].value;
-    if(nameComplete == "") {
+    let user = document.forms["login"]["user"].value;
+    if(user == "") {
         alert('Ingresa tu usuario');
         return false;
-    } else if (nameComplete.length<=6) {
-        alert("Escribe tu nombre completo")
+    } else if (user.length<=6) {
+        alert("Escribe tu usuario completo")
     }
 
     let password = document.forms['login']['password'].value;
-    if(password == "") {
+    if(password = "") {
         alert('Ingresa tu contraseña');
         return false;
     } else if( password.length<=6) {
