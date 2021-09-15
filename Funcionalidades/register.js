@@ -26,5 +26,20 @@ function validarRegistro() {
         alert("Escribe tu usuario completo")
     }
 
+    let email = document.forms["registro"]["email"].value;
+    if(email == "") {
+        alert("Ingresa tu email");
+        return false;
+    } else if (/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(email) ) {
+        console.log("La dirección de email " + email + " es correcta!.");
+    } else {
+        alert("La dirección de email es incorrecta!.");
+    }
 
+    let password = document.forms['registro']['password'].value;
+
+    if(password == "") {
+        alert('Ingresa tu contraseña');
+        return false;
+    }
 }
