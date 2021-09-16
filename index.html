@@ -50,37 +50,46 @@
     <!-- Aqui acaba el header + navbar -->
     <!-- Aqui inicia el cuerpo del sitio web -->
 
-    <main>
+    <main id="list-cards">
 
         <div class="search">
-            <input type="search" placeholder="Search" width="200px">
+            <input type="search" id="filter" placeholder="Search" onkeyup="searchClass()" width="200px">
         </div>
         
         <div class="container-card">
 
             <div class="card">
-
+                <div>
+                    <img src="">
+                </div>
+                <div class="container-title">
+                    <h3 id="title" class="title">Nombre</h3>
+                </div>
+                <p>Descripcion</p>
+            </div>
+            <div class="card">
                 <div>
                     <img src="">
                 </div>
                 <h3>Nombre</h3>
                 <p>Descripcion</p>
-
-
             </div>
             <div class="card">
-
+                <div>
+                    <img src="">
+                </div>
+                <h3>Nombre</h3>
+                <p>Descripcion</p>
             </div>
             <div class="card">
-
-            </div>
-            <div class="card">
-
+                <div>
+                    <img src="">
+                </div>
+                <h3>Nombre</h3>
+                <p>Descripcion</p>
             </div>
 
         </div>
-
-
 
         <form id="login" class="login">
             <input class="login-usuario" type="text" placeholder="Usuario"  id="user">
