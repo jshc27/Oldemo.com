@@ -5,6 +5,8 @@ function login() {
 
     document.getElementById('login').style.display = 'block';
     document.getElementById('login').style.textAlign = 'center';
+    document.getElementById('login').style.position = 'absolute';
+    document.getElementById('login').style.zIndex = '1';
     console.log('funciona');
 
 }

@@ -4,6 +4,8 @@ function registro() {
 
     document.getElementById('registro').style.display= 'block';
     document.getElementById('registro').style.textAlign= 'center';
+    document.getElementById('registro').style.position = 'absolute';
+    document.getElementById('registro').style.zIndex = '1';
 
 }
 

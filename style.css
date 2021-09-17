@@ -133,9 +133,11 @@ button:hover {
 
 
 .register-usuario, .register-email, .register-password, .register-buttons {
-    margin-top: 20px;
-}
 
+    outline: none;
+    margin-top: 20px;
+
+}
 
 .search {
     
