@@ -177,6 +177,10 @@ button:hover {
     
 }
 
+.card p {
+    color: black;
+}
+
 
 .image {
     display: flex;
@@ -227,6 +231,7 @@ footer a, p {
 
     padding: 10px 10px;
     text-decoration: none;
+    color: white;
     
 
 }
