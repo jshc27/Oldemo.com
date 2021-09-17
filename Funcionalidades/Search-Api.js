@@ -30,8 +30,6 @@ const url = "https://www.etnassoft.com/api/v1/get/?category=libros_programacion&
 fetch(url)
 .then( response => response.json())
 .then(data =>{
-    console.log(data);
-
 
     // card1 
 
@@ -48,13 +46,13 @@ fetch(url)
     //card2
 
     let image2 = document.getElementById('image2');
-    image2.innerHTML =  `<img width="100px" height="100px" src='${data[1].cover}'/>`;
+    image2.innerHTML = `<img width="100px" height="100px" src='${data[1].cover}'/>`;
 
     let title2 = document.getElementById('title2');
-    title2.innerHTML =  `${data[1].title}`;
+    title2.innerHTML = `${data[1].title}`;
 
     let text2 = document.getElementById('text2');
-    title2.innerHTML =  `${data[1].content_short}`;
+    text2.innerHTML =  `${data[1].content_short}`;
 
     //card3
 
@@ -62,10 +60,10 @@ fetch(url)
     image3.innerHTML =  `<img width="100px" height="100px" src='${data[2].cover}'/>`;
 
     let title3 = document.getElementById('title3');
-    title2.innerHTML =  `${data[2].title}`;
+    title3.innerHTML =  `${data[2].title}`;
 
     let text3 = document.getElementById('text3');
-    title3.innerHTML =  `${data[2].content_short}`;
+    text3.innerHTML =  `${data[2].content_short}`;
 
      //card4
 
@@ -76,8 +74,10 @@ fetch(url)
     title4.innerHTML =  `${data[3].title}`;
 
     let text4 = document.getElementById('text4');
-    title4.innerHTML =  `${data[3].content_short}`;
+    text4.innerHTML =  `${data[3].content_short}`;
 
+    console.log(data);
 
-});
+})
 
+.catch(err=>console.log(err));
