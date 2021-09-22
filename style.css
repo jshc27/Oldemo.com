@@ -169,12 +169,17 @@ button:hover {
     height: 350px;
     width: 240px;
     margin-right: 20px;
-    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
     background-blend-mode: soft-light, normal;
-    border: 3px solid #E7EBF0;
+    background-color: white;
+    box-sizing: border-box; 
     border-radius: 10px;
     border: transparent;
+    cursor: pointer;
     
+}
+
+.card:hover {
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
 }
 
 .card p {
