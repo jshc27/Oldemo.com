@@ -15,3 +15,14 @@ Oldemo is projected as an app that helps adults to learn about technology. Trans
 
 ## Demo
 https://jshc27.github.io/Oldemo.com/
+
+## License 
+The MIT license (MIT)
+
+## Contributions
+
+I invite you to contribute to this project by improving the visual aspects or functionality and loading in the browser.
+
+## More information
+
+:point_right: https://www.npmjs.com/package/live-server
