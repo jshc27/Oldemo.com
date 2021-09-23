@@ -14,4 +14,4 @@ Oldemo is projected as an app that helps adults to learn about technology. Trans
 5. When it is installed, enter the command <code>live-server</code> in your terminal and it should open the project visually. 
 
 ## Demo
-
+https://jshc27.github.io/Oldemo.com/
